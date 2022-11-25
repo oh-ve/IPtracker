@@ -21,9 +21,9 @@ export default function Maps(props) {
       <p>You are approximately here:</p>
       <MapContainer
         center={props.userPosition}
-        zoom={13}
+        zoom={0}
         scrollWheelZoom={true}
-        style={{ height: "300px", margin: "auto", width: "300px" }}
+        style={{ height: "170px", margin: "auto", width: "300px" }}
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
